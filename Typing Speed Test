@@ -30,5 +30,5 @@ def typing_speed_test():
     words_per_minute = calculate_words_per_minute(start_time, end_time, typed_text)
     print(f"\nYour typing speed: {words_per_minute:.2f} words per minute")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     typing_speed_test()
